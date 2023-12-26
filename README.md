@@ -1,6 +1,4 @@
-# ⚠️ Archived
-
-This template is no longer being maintained and is now archived. We recommend using the [terraform-provider-scaffolding-framework](https://github.com/hashicorp/terraform-provider-scaffolding-framework) template repository built on the [Terraform Plugin Framework](https://developer.hashicorp.com/terraform/plugin/framework-benefits) for new provider development because it offers significant advantages compared to the SDKv2.
+# terraform-provider-xyz
 
 # Terraform Provider Scaffolding (Terraform Plugin SDK)
 
