@@ -22,5 +22,3 @@ Sample data source in the Terraform provider scaffolding.
 ### Read-Only
 
 - `id` (String) The ID of this resource.
-
-

@@ -6,7 +6,7 @@ _This template repository is built on the [Terraform Plugin SDK](https://github.
 
 This repository is a *template* for a [Terraform](https://www.terraform.io) provider. It is intended as a starting point for creating Terraform providers, containing:
 
- - A resource, and a data source (`internal/provider/`),
+ - A resource, and a data source (`provider/`),
  - Examples (`examples/`) and generated documentation (`docs/`),
  - Miscellaneous meta files.
  
@@ -20,7 +20,7 @@ Once you've written your provider, you'll want to [publish it on the Terraform R
 ## Requirements
 
 -	[Terraform](https://www.terraform.io/downloads.html) >= 0.13.x
--	[Go](https://golang.org/doc/install) >= 1.18
+-	[Go](https://golang.org/doc/install) >= 1.21
 
 ## Building The Provider
 
