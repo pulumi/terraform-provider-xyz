@@ -35,6 +35,14 @@ func New(version string) func() *schema.Provider {
 			ResourcesMap: map[string]*schema.Resource{
 				"xyz_resource": resourceScaffolding(),
 			},
+			Schema: map[string]*schema.Schema{
+				"region": {
+					Type:        schema.TypeString,
+					Optional:    true,
+					DefaultFunc: schema.EnvDefaultFunc("XYZ_REGION", ""),
+					Description: "A region which should be used.",
+				},
+			},
 		}
 
 		p.ConfigureContextFunc = configure(version, p)
