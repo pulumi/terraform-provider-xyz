@@ -1,4 +1,4 @@
-module github.com/iwahbe/terraform-provider-xyz
+module github.com/pulumi/terraform-provider-xyz
 
 go 1.22.0
 
